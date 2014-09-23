@@ -1,5 +1,5 @@
-# Icon 
-# (some gitignore must ends with two \r.
+# Icon
+# (avoid using icons as a directory name)
 Icon?
 
 # OS Files
