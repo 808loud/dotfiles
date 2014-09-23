@@ -1,7 +1,4 @@
-dotfiles
-========
-
-Starting with the basics
+**To download:**
 
 
 ```bash
