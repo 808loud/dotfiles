@@ -1,0 +1,68 @@
+# Icon 
+# (some gitignore must ends with two \r.
+Icon?
+
+# OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Wordpress
+*.log
+/src/.htaccess
+/src/sitemap.xml
+/src/sitemap.xml.gz
+/src/wp-config.php
+!/src/wp-content/advanced-cache.php
+/src/wp-content/backup-db/
+/src/wp-content/backups/
+/src/wp-content/blogs.dir/
+/src/wp-content/cache/
+/src/wp-content/upgrade/
+/src/wp-content/uploads/
+/src/wp-content/wp-cache-config.php
+/src/wp-content/plugins/wordfence/tmp/*
+
+# Magento
+/src/shop/.htaccess
+/src/shop/.htaccess.sample
+/src/shop/LICENSE.html
+/src/shop/LICENSE.txt
+/src/shop/LICENSE_AFL.txt
+/src/shop/RELEASE_NOTES.txt
+/src/shop/index.php.sample
+/src/shop/maintenance.flag
+/src/shop/php.ini.sample
+/src/shop/app/etc/local.xml
+/src/shop/app/etc/local.xml.additional
+/src/shop/app/etc/local.xml.template
+/src/shop/media/*
+/src/shop/var/*
+/src/shop/errors/local.xml
+/src/wp-content/plugins/wordfence/tmp/configCache.php
+
+# Sass
+.sass-cache
