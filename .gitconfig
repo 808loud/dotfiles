@@ -1,0 +1,34 @@
+[user]
+    name = David Monson
+    email = david@808loud.com
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui = true
+    pager = true
+[color "status"]
+    added = green
+    changed = blue
+    untracked = red
+[color "diff"]
+    meta = yellow
+    old = red
+    new = green
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    # James Brown version control
+    up = push
+    down = pull
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+[push]
+    default = upstream
+[branch]
+    autosetupmerge = always
