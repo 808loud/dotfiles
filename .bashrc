@@ -15,3 +15,5 @@ PS1="$GREEN\u$NO_COLOUR:\w$YELLOW\$(parse_git_branch)$NO_COLOUR\$ "
 alias ls="ls -la"
 
 alias jgo="bundle exec jekyll serve"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
