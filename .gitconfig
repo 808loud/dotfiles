@@ -26,7 +26,7 @@
     up = push
     down = pull
 [core]
-    editor = vim
+    editor = nano
     excludesfile = ~/.gitignore
 [push]
     default = simple
