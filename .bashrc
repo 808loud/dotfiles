@@ -12,7 +12,7 @@ NO_COLOUR="\[\033[0m\]"
 
 PS1="$GREEN\u$NO_COLOUR:\w$YELLOW\$(parse_git_branch)$NO_COLOUR\$ "
 
-alias ls="ls -la"
+alias ls="ls -lah"
 
 alias jgo="bundle exec jekyll serve --watch"
 
