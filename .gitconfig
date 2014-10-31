@@ -32,3 +32,5 @@
     default = simple
 [branch]
     autosetupmerge = always
+[help]
+    autocorrect = -1
