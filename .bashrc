@@ -49,7 +49,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Display current branch in bash prompt when inside git repo, color-coded
 function parse_git_branch () {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
 RED="\[\033[0;31m\]"
@@ -58,6 +58,14 @@ GREEN="\[\033[0;32m\]"
 NO_COLOUR="\[\033[0m\]"
 
 PS1="$GREEN\u$NO_COLOUR:\w$YELLOW\$(parse_git_branch)$NO_COLOUR\$ "
+
+# Move up a directory with just ".."
+alias ..="cd .."
+
+# Change directory and list files
+function cl () {
+  cd "$@" && ls
+}
 
 # Alter default ls options
 alias ls="ls -lah"
