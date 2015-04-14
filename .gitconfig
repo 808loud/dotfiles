@@ -2,6 +2,9 @@
     name = David Monson
     email = david@808loud.com
     
+[github]
+    user = 808loud
+    
 [color]
     diff = auto
     status = auto
