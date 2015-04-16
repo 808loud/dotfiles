@@ -1,4 +1,4 @@
-**To download:**
+**To download without Git:**
 
 
 ```bash
