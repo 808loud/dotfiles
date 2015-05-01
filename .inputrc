@@ -1,0 +1,2 @@
+# Ignore case when using tab autocomplete in Bash
+set completion-ignore-case on
