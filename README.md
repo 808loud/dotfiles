@@ -32,3 +32,5 @@ cd; curl -#L https://github.com/808loud/dotfiles/tarball/master | tar -xzv --str
 ## TODO
 
 - [X] figure out how to symlink from current directory to user's root directory (thanks @mathiasbynens)
+- [ ] In Chrome, set "Warn before Quit" to enabled
+- [ ] Adium chat program settings and theme
