@@ -1,0 +1,5 @@
+# Case-insensitive Tab-complete it command line
+set completion-ignore-case on
+
+# Makes it unnecessary to press Tab twice when there is more than one match
+set show-all-if-ambiguous on
