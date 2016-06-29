@@ -1,5 +1,12 @@
+# https://www.reddit.com/r/commandline/comments/kbeoe/you_can_make_readline_and_bash_much_more_user/
+
 # Case-insensitive Tab-complete it command line
 set completion-ignore-case on
 
 # Makes it unnecessary to press Tab twice when there is more than one match
 set show-all-if-ambiguous on
+
+# underscores and hyphens are treated equally when completing
+set completion-map-case on
+
+# it might be time to move to zsh...
