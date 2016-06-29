@@ -1,4 +1,4 @@
-# David's dotfiles
+# :construction: Caution. This is a work in progress.
 
 ## Using Git and the bootstrap script
 
