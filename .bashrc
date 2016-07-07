@@ -73,6 +73,9 @@ function cl () {
 # Alter default ls options
 alias ls="ls -lah"
 
+# Aliasing for GitHub's command-line tool, hub
+eval "$(hub alias -s)"
+
 # Update and serve jekyll pages
 alias jgo="bundle exec jekyll serve --watch"
 
