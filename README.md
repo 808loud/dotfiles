@@ -33,4 +33,8 @@ cd; curl -#L https://github.com/808loud/dotfiles/tarball/master | tar -xzv --str
 
 - [X] figure out how to symlink from current directory to user's root directory (thanks @mathiasbynens)
 - [ ] In Chrome, set "Warn before Quit" to enabled
-- [ ] Adium chat program settings and theme
+- [ ] Configure a ZSH profile
+
+### [ZSH profile ideas](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/)
+  * Plugins:
+    * npm, bower, brew, osx, extract, z
