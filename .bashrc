@@ -71,7 +71,7 @@ function cl () {
 }
 
 # Alter default ls options
-alias ls="ls -lahr"
+alias ls="ls -lah"
 
 # Aliasing for GitHub's command-line tool, hub
 eval "$(hub alias -s)"
